@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(197deg, #F5B2AC, #E8D5D5)
+}
+
+.holow_knight {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.holow {
+    flex-basis: 10px;
+    flex-grow: 1;
+    transition-duration: 300ms;
+    transform: scale(1.1);
+}
+
+.holow:hover {
+    flex-basis: 80px;
+}
+
+.holow:nth-child(1) {
+    background-color: #FFDFDC;
+}
+
+.holow:nth-child(2) {
+    background-color: #F6DDDF;
+}
+
+.holow:nth-child(3) {
+    background-color: #DCABAE;
+}
+
+.holow:nth-child(4) {
+    background-color: #FF9CA1;
+}
+
+.holow:nth-child(5) {
+    background-color: #DB6B88;
+}
+
+.holow:nth-child(6) {
+    background-color: #FF7272;
+}
+
+.holow:nth-child(7) {
+    background-color: #E85668;
+}
+
+.knight_holow {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.knight {
+    flex-basis: 10px;
+    flex-grow: 1;
+    transition-duration: 300ms;
+    transform: scale(1.1);
+}
+
+.knight:hover {
+    flex-basis: 80px;
+}
+
+.knight:nth-child(1) {
+    background-color: #FFC46B;
+}
+
+.knight:nth-child(2) {
+    background-color: #FFAF50;
+}
+
+.knight:nth-child(3) {
+    background-color: #FC9A40;
+}
+
+.knight:nth-child(4) {
+    background-color: #FF905A;
+}
+
+.knight:nth-child(5) {
+    background-color: #FFAD32;
+}
+
+.dragon_lore {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.dragon {
+    flex-basis: 10px;
+    flex-grow: 1;
+    transition-duration: 300ms;
+    transform: scale(1.1);
+}
+
+.dragon:hover {
+    flex-basis: 80px;
+}
+
+.dragon:nth-child(1) {
+    background-color: #E5F0FF;
+}
+
+.dragon:nth-child(2) {
+    background-color: #B7D4FF;
+}
+
+.dragon:nth-child(3) {
+    background-color: #7EB3FF;
+}
+
+.dragon:nth-child(4) {
+    background-color: #51EAFF;
+}
+
+.dragon:nth-child(5) {
+    background-color: #BDCCFF;
+}
